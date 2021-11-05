@@ -1,0 +1,125 @@
+.jumbotron-container {
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 8px solid #222;
+    padding: 70px 140px;
+}
+
+.jumbotron-container:last-child {
+    border-bottom: none;
+}
+
+.row-jumbotron {
+    flex-direction: row;
+}
+
+.row-reverse-jumbotron {
+    flex-direction: row-reverse;
+}
+
+.jumbotron-texts-wrapper {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 60px 10px 10px 10px;
+}
+
+.textGotPaddingRight {
+    padding-right: 60px;    
+}
+
+.jumbotron-images-wrapper {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.jumbotron-images-wrapper img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.jumbotron-title {
+    color: #fff;
+    width: 100%;
+    text-align: left;
+    font-size: 3.125rem;
+}
+.jumbotron-subtitle {
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.row-text {
+    text-align: left;
+    
+}
+
+.row-reverse-text {
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+
+@media(max-width: 1024px) {
+    .jumbotron-container {
+        padding: 20px 40px;
+    }
+    .textGotPaddingRight {
+        padding-right: 0;    
+    }
+    .imageGotPaddingRight {
+        padding: 0 150px 0 10px; 
+    }
+    .jumbotron-container:last-of-type .imageGotPaddingRight{
+        padding: 0; 
+    }
+}
+
+@media(max-width: 949px) {
+    .jumbotron-container {
+        flex-direction: column;
+    }
+    .jumbotron-texts-wrapper {
+        width: 100%;
+        text-align: center;
+        padding: 60px 0 10px 0;
+    }
+    .jumbotron-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .jumbotron-subtitle {
+        width: 100%;
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .imageGotPaddingRight {
+        padding: 0; 
+    }
+    .row-reverse-text {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 550px) {
+    .jumbotron-container {
+        padding: 50px 27px;
+    }
+    .jumbotron-texts-wrapper {
+        padding: 0;
+    }
+    .jumbotron-title {
+        font-size: 1.625rem;
+    } 
+    .jumbotron-subtitle {
+        font-size: 1.125rem;
+        font-weight: 300;
+    } 
+}
+
+

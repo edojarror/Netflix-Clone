@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "Nikmati di TV-mu.",
+      "subTitle": "Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple TV, pemutar Blu-ray, dan banyak lagi.",
+      "image": "/images/misc/home-tv.jpg",
+      "alt": "Tiger King on Netflix",
+      "direction": "row"
+    },
+    {
+      "id": 2,
+      "title": "Download acara TV untuk menontonnya secara offline.",
+      "subTitle": "Simpan favoritmu dengan mudah agar selalu ada acara TV dan film yang bisa ditonton.",
+      "image": "/images/misc/home-mobile.jpg",
+      "alt": "Watch on mobile",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 3,
+      "title": "Tonton di mana pun.",
+      "subTitle": "Streaming film dan acara TV tak terbatas di ponsel, tablet, laptop, dan TV-mu.",
+      "image": "/images/misc/home-imac.jpg",
+      "alt": "Money Heist on Netflix",
+      "direction": "row"
+    },
+    {
+      "id": 4,
+      "title": "Buat profil untuk anak.",
+      "subTitle": "Kirim anak-anak untuk bertualang bersama karakter favorit mereka di dunia yang dibuat khusus untuk mereka—gratis dengan keanggotaanmu.",
+      "image": "/images/misc/kids-en.png",
+      "alt": "Money Heist on Netflix",
+      "direction": "row-reverse"
+    }
+  ]

@@ -1,0 +1,258 @@
+
+/* sub-accordion */
+.header-inputEmail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 949px) {
+    .header-inputEmail-container {
+        width: 48%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 902px) {
+    .header-inputEmail-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 868px) {
+    .header-inputEmail-container {
+        width: 54%;
+    }
+}
+
+.header-inputEmail-title {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media (max-width: 949px) {
+    .header-inputEmail-title {
+        font-size: 23px;
+        margin: 5px 0 10px;
+    } 
+}
+
+@media (max-width: 812px) {
+    .header-inputEmail-title {
+        font-size: 18px;
+        width: 70vw;
+    } 
+}
+
+@media (max-width: 949px) {
+    .header-inputEmail-and-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+.header-inputEmail-and-button input {
+    padding: 19.18px;
+}
+
+@media (max-width: 812px) {
+    .header-inputEmail-and-button input {
+        padding: 14px;
+    }
+}
+
+.header-subscribe-button {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1.4rem;
+    padding: 11.55px 11px 16px;
+    line-height: 30px;
+    background-color: #db0510;
+    color: #fff;
+    width: 200px;
+    border: transparent;
+}
+
+@media (max-width: 949px) {
+    .header-subscribe-button {
+        width: 125px;
+        font-size: 1rem;
+        min-height: 40px;
+        padding: 0 1em;
+        text-align: center;
+        margin-top: 1rem;
+    }  
+} 
+
+.header-subscribe-button:hover {
+    background-color: #e50914;
+}
+
+.header-subscribe-button::after {
+   content: " ›"
+}
+
+.header-subscribe-email {
+    width: 400px;
+    outline: none;
+}  
+
+@media (max-width: 812px) {
+    .header-subscribe-email {
+        width: 470px;
+    }    
+}
+
+@media (max-width: 550px) {
+    .header-subscribe-email {
+        width: 82vw;
+    }
+    .header-subscribe-button {
+        width: 130px;
+    }
+}
+
+
+
+/* accordion InputEmail styles */
+
+.accordion-inputEmail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    .accordion-inputEmail-container {
+        width: 52%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 902px) {
+    .accordion-inputEmail-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 868px) {
+    .accordion-inputEmail-container {
+        width: 54%;
+    }
+}
+
+.accordion-inputEmail-title {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media (max-width: 949px) {
+    .accordion-inputEmail-title {
+        font-size: 23px;
+        margin: 5px 0 10px;
+    } 
+}
+
+@media (max-width: 939px) {
+    .accordion-inputEmail-title {
+        font-size: 23px;
+    } 
+}
+
+@media (max-width: 812px) {
+    .accordion-inputEmail-title {
+        width: 70vw;
+    } 
+}
+
+@media (max-width: 739px) {
+    .accordion-inputEmail-title {
+        font-size: 18px;
+        font-weight: 300;
+    } 
+}
+
+
+
+@media (max-width: 1024px) {
+    .accordion-inputEmail-and-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+.accordion-inputEmail-and-button input {
+    padding: 19.1px;
+}
+
+@media (max-width: 939px) {
+    .accordion-inputEmail-and-button input {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 739px) {
+    .accordion-inputEmail-and-button input {
+        padding: 16px;
+    }
+}
+
+
+.accordion-subscribe-button {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1.4rem;
+    padding: 11.55px 11px 16px;
+    line-height: 30px;
+    background-color: #db0510;
+    color: #fff;
+    width: 200px;
+    border: transparent;
+}
+
+@media (max-width: 949px) {
+    .accordion-subscribe-button {
+        width: 125px;
+        font-size: 1rem;
+        min-height: 40px;
+        padding: 0 1em;
+        text-align: center;
+        margin-top: 1rem;
+    }  
+} 
+
+.accordion-subscribe-button:hover {
+    background-color: #e50914;
+}
+
+.accordion-subscribe-button::after {
+   content: " ›"
+}
+
+.accordion-subscribe-email {
+    width: 400px;
+    outline: none;
+}  
+
+@media (max-width: 1024px) {
+    .accordion-subscribe-email {
+        width: 460px;
+    }    
+}
+
+@media (max-width: 550px) {
+    .accordion-subscribe-email {
+        width: 82vw;
+    }
+    .accordion-subscribe-button {
+        width: 130px;
+    }
+}

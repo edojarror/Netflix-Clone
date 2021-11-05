@@ -1,0 +1,137 @@
+.footer-container {
+    box-sizing: border-box;
+    padding: 50px 5% 0;
+}
+.footer-container-2 {
+    padding: 25px 75px 0;
+}
+
+.title {
+    font-size: 17px;
+    color: #757575;
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding-left: 4.8rem;
+    text-align: left;
+    font-weight: 300;   
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    color: #757575;
+    margin-top: 30px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-select-subtitle {
+    padding: 20px 75px
+}
+
+
+.footer-ul-container {
+    box-sizing: border-box;
+    padding: 0 80px;
+}
+
+.footer-ul {
+    display: grid;
+    height: 150px;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 40px);
+    column-gap: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media (max-width: 1024px) {
+    .footer-container-2 {
+        padding: 25px 50px 0;
+    }
+    .title {
+        padding-left: 0;    
+    }
+    .footer-ul-container {
+        padding: 0;
+    }
+    .footer-select-subtitle {
+        padding: 25px 0 10px
+    }
+}
+
+@media (max-width: 740px) {
+    .footer-container {
+        padding: 40px 5% 0;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .footer-ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5,35px);
+        
+    }
+    ul a {
+        font-size: 13px;
+    }
+    .footer-select-subtitle {
+        padding: 25px 0 0;
+    }
+    .subtitle {
+        margin: 25px 0 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer-ul {
+        grid-template-columns: repeat(3, 125px);    
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-container {
+        padding: 30px 5% 30px;
+    }
+    .footer-ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5,30px);
+        height: fit-content;  
+       
+    }
+    .footer-select-subtitle {
+        padding: 15px 0 0;
+        width: 80%;
+    }
+    .subtitle {
+        margin: 20px 0 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer-container {
+        padding: 30px 10% 30px;
+    }
+    .footer-container-2 {
+        padding: 25px 0 0;
+    }
+    .footer-select-subtitle {
+        width: 60%;
+    }
+}

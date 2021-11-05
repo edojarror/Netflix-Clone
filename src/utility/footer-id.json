@@ -1,0 +1,66 @@
+
+[
+    {
+        "id": 1,
+        "text": "Tanya Jawab"
+    },
+    {
+        "id": 2,
+        "text": "Pusat Bantuan"  
+    },
+    {
+        "id": 3,
+        "text": "Akun"  
+    },
+    {
+        "id": 4,
+        "text": "Pusat Media"  
+    },
+    {
+        "id": 5,
+        "text": "Hubungan Investor"  
+    },
+    {
+        "id": 6,
+        "text": "Lowongan Kerja"  
+    },
+
+    {
+        "id": 7,
+        "text": "Cara Menonton"  
+    },
+
+    {
+        "id": 8,
+        "text": "Ketentuan Penggunaan"  
+    },
+
+    {
+        "id": 9,
+        "text": "Privasi"  
+    },
+    {
+        "id": 11,
+        "text": "Preferensi Cookie"  
+    },
+    {
+        "id": 12,
+        "text": "Informasi Perusahaan"  
+    },
+    {
+        "id": 13,
+        "text": "Hubungi Kami"  
+    },
+    {
+        "id": 14,
+        "text": "Uji Kecepatan"  
+    },
+    {
+        "id": 15,
+        "text": "Informasi Legal"  
+    },
+    {
+        "id": 16,
+        "text": "Hanya di Netflix"  
+    }
+]

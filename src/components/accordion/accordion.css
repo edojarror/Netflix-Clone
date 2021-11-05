@@ -1,0 +1,133 @@
+.accordion-container {
+    box-sizing: border-box;
+    border-bottom: 8px solid #222;
+    padding: 70px 45px;
+    margin: 20px auto 0;
+    border-top: 8px solid #222;
+}
+
+.accordion-button-container {
+    width: 65%;
+    margin: 40px auto 40px;
+}
+
+.button-div {
+    margin: auto;
+}
+
+h1 {
+    font-size: 3.125rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 8px
+}
+
+.accordion {
+    box-sizing: border-box;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #303030;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 8px;
+    outline: none;
+    transition: 0.4s;
+    cursor: pointer;
+    text-align: left;
+    text-indent: 15px;
+}
+
+.accordion:after {
+    content: '\253D' ; /* Unicode character for "plus" sign (+) */
+    font-size: 26px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion-active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+    margin: auto;
+}
+
+.panel p {
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #303030;
+    padding:  25px 25px;
+    margin: 0;
+    overflow: hidden;
+    
+}
+.panel-not-clicked {
+    display: none;
+    max-height: 0;
+    /* transition: 0 0.2s ease-out; */
+}
+
+.panel-clicked {
+    display: block;
+    max-height: 400px;
+    transition: 352px 0.2s ease-out;
+    margin-bottom: 8px;   
+}
+
+
+@media (max-width: 1024px) {
+    .accordion-container {
+        margin-top: 40px;
+    }
+    .accordion-button-container {
+        width: 76%;
+    }
+}
+
+@media (max-width: 950px) {
+    .accordion-button-container {
+        width: 100%;
+    }
+    .button-div {
+        width: 90%;
+    }   
+    h1 {
+        font-size: 2.5rem;
+    } 
+    .accordion {
+        padding: 16px;
+        font-size: 1.3rem;
+        text-indent: 10px;
+    }
+    .accordion:after {
+        font-size: 21px;    
+    }
+    .panel p {
+        font-size: 1.3rem;
+        padding: 19px;
+        
+    }
+}
+
+@media (max-width: 550px) {
+    .accordion-container {
+        padding: 50px 0;
+    }
+    .accordion-button-container {
+        margin: 20px auto 10px;
+    }
+    .button-div {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.625rem;
+    } 
+    .accordion {
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+}
