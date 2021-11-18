@@ -10,7 +10,7 @@ function HomePage({handleSelectLanguage, currentLanguage}) {
             <Header handleSelectLanguage={handleSelectLanguage} currentLanguage={currentLanguage} />
             <Jumbotron currentLanguage={currentLanguage} />
             <Accordion currentLanguage={currentLanguage} />
-            <Footer currentLanguage={currentLanguage}  />
+            <Footer currentLanguage={currentLanguage} handleSelectLanguage={handleSelectLanguage} isHomePageFooter="true"  />
         </div>
     )
 }

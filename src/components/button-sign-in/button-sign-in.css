@@ -1,0 +1,56 @@
+/* homepage header button */
+
+.header-button-signin {
+    box-sizing: border-box;
+    background-color: red;
+    color: #fff;
+    padding: 7px 17px;
+    font-size: 1rem;
+    line-height: normal;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-left: 3vw;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {  
+    .header-button-signin{
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+
+/* signin page */
+.signinForm-button-signin {
+    box-sizing: border-box;
+    background-color: #e50914;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    color: #fff;
+    line-height: normal;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .signinForm-button-signin {
+        box-sizing: border-box;
+        background-color: #e50914;
+        padding: 16px;
+        font-size: 16px;
+        font-weight: 700;
+        width: 100%;
+        color: #fff;
+        line-height: normal;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        margin-top: 16px;
+    }
+}
+   

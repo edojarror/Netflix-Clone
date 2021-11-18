@@ -1,0 +1,30 @@
+.signin-container {
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.signin-container:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.signin-logo-container {
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 739px) {
+    .signin-container {
+        background-image: none !important;
+    }
+}

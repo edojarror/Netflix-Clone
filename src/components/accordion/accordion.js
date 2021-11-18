@@ -51,7 +51,7 @@ export default function Accordion ({currentLanguage}) {
                 </div>         
             </div>
 
-            <InputEmail />
+            <InputEmail currentLanguage={currentLanguage} />
             
             
         </div>

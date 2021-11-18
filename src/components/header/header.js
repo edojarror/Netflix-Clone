@@ -1,19 +1,24 @@
-import './header.css';
+
+import { Link } from 'react-router-dom';
+
 import SelectLanguage from '../select-language/select-language';
 import InputEmail from '../input-email/inputEmail';
+import LogoNetflix from '../logo/logo';
+import './header.css';
+import ButtonSignIn from '../button-sign-in/button-sign-in';
 
 function Header ({handleSelectLanguage, currentLanguage}) {
     return (
         <div className="header-container image-color-overlay" style={{backgroundImage: "url('/images/misc/header-id.jpg')"}}>
 
             <div className="header-navbar">
-                <img src="images\logo\Netflix_Logo_RGB.png" alt="netflix-logo" height="68px" className="header-logo" />
+                <LogoNetflix usedAtHeader="true"  />
                 <div className="header-navbar-select-and-button">
                     <SelectLanguage handleSelectLanguage={handleSelectLanguage} currentLanguage={currentLanguage} />
                     {
                         currentLanguage === "english" 
-                            ? <button className="signin-button"> Sign In</button> 
-                            : <button className="signin-button"> Masuk</button> 
+                            ? <Link to="/signin"><ButtonSignIn className="header-button-signin" buttonText="Sign In" /></Link>   
+                            : <Link to="/signin"><ButtonSignIn className="header-button-signin" buttonText="Masuk" /></Link>  
                     }                       
                 </div>                   
             </div>

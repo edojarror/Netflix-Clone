@@ -1,5 +1,4 @@
-
-/* sub-accordion */
+/* header style */
 .header-inputEmail-container {
     display: flex;
     flex-direction: column;
@@ -46,7 +45,10 @@
         width: 70vw;
     } 
 }
-
+.header-inputEmail-and-button {
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 949px) {
     .header-inputEmail-and-button {
         display: flex;
@@ -54,16 +56,17 @@
         align-items: center;
     }    
 }
-
-.header-inputEmail-and-button input {
-    padding: 19.18px;
+/* padding: 19.18px; */
+/* .header-inputEmail-and-button input {
+    
+    padding: 30px 16px 15px 10px;
 }
 
 @media (max-width: 812px) {
     .header-inputEmail-and-button input {
         padding: 14px;
     }
-}
+} */
 
 .header-subscribe-button {
     box-sizing: border-box;
@@ -96,21 +99,7 @@
    content: " ›"
 }
 
-.header-subscribe-email {
-    width: 400px;
-    outline: none;
-}  
-
-@media (max-width: 812px) {
-    .header-subscribe-email {
-        width: 470px;
-    }    
-}
-
 @media (max-width: 550px) {
-    .header-subscribe-email {
-        width: 82vw;
-    }
     .header-subscribe-button {
         width: 130px;
     }
@@ -179,7 +168,9 @@
     } 
 }
 
-
+.accordion-inputEmail-and-button {
+    display: flex;
+}
 
 @media (max-width: 1024px) {
     .accordion-inputEmail-and-button {
@@ -188,23 +179,6 @@
         align-items: center;
     }    
 }
-
-.accordion-inputEmail-and-button input {
-    padding: 19.1px;
-}
-
-@media (max-width: 939px) {
-    .accordion-inputEmail-and-button input {
-        padding: 20px;
-    }
-}
-
-@media (max-width: 739px) {
-    .accordion-inputEmail-and-button input {
-        padding: 16px;
-    }
-}
-
 
 .accordion-subscribe-button {
     box-sizing: border-box;
@@ -237,21 +211,7 @@
    content: " ›"
 }
 
-.accordion-subscribe-email {
-    width: 400px;
-    outline: none;
-}  
-
-@media (max-width: 1024px) {
-    .accordion-subscribe-email {
-        width: 460px;
-    }    
-}
-
 @media (max-width: 550px) {
-    .accordion-subscribe-email {
-        width: 82vw;
-    }
     .accordion-subscribe-button {
         width: 130px;
     }

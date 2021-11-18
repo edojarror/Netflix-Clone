@@ -68,7 +68,6 @@ h1 {
 .panel-not-clicked {
     display: none;
     max-height: 0;
-    /* transition: 0 0.2s ease-out; */
 }
 
 .panel-clicked {

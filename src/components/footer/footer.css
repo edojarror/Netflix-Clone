@@ -42,7 +42,6 @@ a:hover {
     padding: 20px 75px
 }
 
-
 .footer-ul-container {
     box-sizing: border-box;
     padding: 0 80px;
@@ -58,7 +57,6 @@ a:hover {
     margin: 0;
     padding: 0;
 }
-
 
 
 @media (max-width: 1024px) {
@@ -133,5 +131,112 @@ a:hover {
     }
     .footer-select-subtitle {
         width: 60%;
+    }
+}
+
+
+/* sign-in footer styles */
+.signin-container-2 {
+    box-sizing: border-box;
+    padding: 30px 75px 28px;
+}
+.signin-title {
+    font-size: 17px;
+    color: #757575;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-left: 4.8rem;
+    text-align: left;
+    font-weight: 300;   
+}
+.signin-footer-container {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 100px;
+}
+.signin-footer-ul-container {
+    box-sizing: border-box;
+    padding: 0 80px;
+}
+
+.signin-footer-anchor {
+    font-size: 12px;
+}
+
+.signin-footer-ul {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 40px);
+    column-gap: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+.signin-select-subtitle {
+    padding: 10px 75px 28px;
+}
+
+
+@media (max-width: 1024px) {
+    .signin-container-2 {
+        padding: 30px 54px 28px;
+    }
+    .signin-title {
+        padding-left: 0;
+    }
+    .signin-footer-ul-container {
+        padding: 0;
+    }
+    .signin-footer-ul {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 32px);
+        column-gap: 0;
+        margin-bottom: 16px;
+    }
+    li {
+        margin-bottom: 0;
+    }
+    .signin-select-subtitle {
+        padding: 10px 0 28px;
+    }
+}
+
+@media (max-width: 739px) {
+    .signin-footer-container {
+        border-top: 1px solid #757575;
+        margin-top: 0;
+    }
+    .signin-container-2 {
+        padding: 30px 36px 28px;
+    }
+    .signin-title a {
+        font-size: 16px;
+    }
+    .signin-footer-ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .signin-select-subtitle {
+        padding: 8px 0 22px;
+    }
+    .signin-footer-anchor {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 548px) {
+    .signin-container-2 {
+        padding: 30px 28px 28px;
+    }
+}
+
+@media (max-width: 498px) {
+    .signin-footer-ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 32px);
     }
 }

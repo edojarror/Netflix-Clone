@@ -1,5 +1,8 @@
 import { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import HomePage from './pages/home-page/home-page';
+import SignInPage from './pages/sign-in/sign-in-page';
 import './App.css';
 
 function App() {
@@ -9,12 +12,29 @@ function App() {
     setCurrentLanguage(event.target.value)
   }
   return (
-    <div className="App">
-      <HomePage 
-        handleSelectLanguage={handleSelectLanguage} 
-        currentLanguage={currentLanguage}
-        />
-    </div>
+    // test implementing react-router
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <HomePage 
+            handleSelectLanguage={handleSelectLanguage} 
+            currentLanguage={currentLanguage}
+            />  
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path="/signin">
+            <SignInPage
+            handleSelectLanguage={handleSelectLanguage} 
+            currentLanguage={currentLanguage}
+            />  
+          </Route>
+        </Switch>
+        
+      </div>  
+    </Router>
+    
   );
 }
 

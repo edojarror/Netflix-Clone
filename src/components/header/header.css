@@ -38,22 +38,14 @@
     padding: 6px;
     /* test overlay */
     position: relative;
-    z-index: 20;
-    
-}
-.header-logo {
-    margin-left: 1.5vw;
+    z-index: 20;  
 }
 
 @media (max-width: 550px) {
     .header-navbar {
         padding-top: 1rem;
     }
-    .header-logo {
-        height: 3rem;
-    }
 }
-
 
 
 .header-navbar-select-and-button {
@@ -72,42 +64,8 @@
     }
 }
 
-/* select option dropdown */
-/* need to move this element into own component */
 
-/* .header-dropdown {
-    margin: 0;
-    font-size: 16px;
-    background-color: transparent;
-    color: #fff;
-    padding: 0.3rem;
-    border-color: #fff;
-}
-
-.header-dropdown option {
-    background-color: #aaa;
-} */
-
-/*  */
-.signin-button {
-    box-sizing: border-box;
-    background-color: red;
-    color: #fff;
-    padding: 7px 17px;
-    font-size: 1rem;
-    line-height: normal;
-    border-radius: 4px;
-    font-weight: 500;
-    margin-left: 3vw;
-    border: none;
-    cursor: pointer;
-}
-/* move header-dropdown to own component */
 @media (max-width: 550px) {
-    /* .header-dropdown {
-        font-size: 14px;
-    } */
-    
     .signin-button {
         font-size: 14px;
         padding: 6px 10px;
@@ -119,16 +77,13 @@
         height: 100%;
         overflow: hidden;
     }
-    /* .header-dropdown {
-        padding: 0;
-    } */
 }
+
 /* sub-header */
 .header-sub-container {
     padding: 4rem 8rem 0;
     text-align: center;
     color: #fff;
-    /* test overlay */
     position: relative;
     z-index: 20;
     
@@ -213,7 +168,6 @@
 
 .header-input-email {
     margin-bottom: 12vh;
-    /* test overlay */
     position: relative;
     z-index: 20;
 }

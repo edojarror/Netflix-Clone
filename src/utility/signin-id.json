@@ -1,0 +1,28 @@
+
+[
+    {
+        "id": 1,
+        "text": "Tanya Jawab"
+    },
+    {
+        "id": 2,
+        "text": "Pusat Bantuan"  
+    },
+    {
+        "id": 3,
+        "text": "Ketentuan Penggunaan"  
+    },
+
+    {
+        "id": 4,
+        "text": "Privasi"  
+    },
+    {
+        "id": 5,
+        "text": "Preferensi Cookie"  
+    },
+    {
+        "id": 6,
+        "text": "Informasi Perusahaan"  
+    }   
+]
